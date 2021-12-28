@@ -5,7 +5,7 @@ set -ex
 VERSION=`cat VERSION`
 
 # Clone new code
-git clone https://github.com/ProtonMail/proton-bridge.git
+git clone https://github.com/dnordgren/proton-bridge.git
 cd proton-bridge
 git checkout v$VERSION
 

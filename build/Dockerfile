@@ -9,7 +9,7 @@ COPY build.sh VERSION /build/
 RUN bash build.sh
 
 FROM ubuntu:bionic
-LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
+LABEL maintainer="Derek Nordgren <derek@dereknordgren.com>"
 
 EXPOSE 25/tcp
 EXPOSE 143/tcp
